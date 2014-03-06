@@ -64,5 +64,4 @@ public class TestAllWordsCounter {
         assertEquals(counter.getNumWords(), 2);
         assertEquals(counter.getAllWords(), new String[] { "foo", "bar"});
     }
-
 }
