@@ -15,7 +15,7 @@ public class AllWordsCounter {
     /*
     Initializes the array of single word counters.
      */
-    SingleWordCounter counters[]= new SingleWordCounter[MAX_WORDS];
+    private SingleWordCounter counters[]= new SingleWordCounter[MAX_WORDS];
 
     /*
     Returns the number of non-null SingleWordCounter objects in the array.
